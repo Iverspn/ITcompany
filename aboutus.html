@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+nav {  
+    background-color: #333; 
+    overflow: hidden; 
+}  
+  
+nav ul {  
+    list-style-type: none; 
+    margin: 0;  
+    padding: 0;  
+    display: flex; 
+    justify-content: space-between; 
+}  
+  
+nav ul li {  
+    position: relative; /* Position the child element (like drop-down menu) */ 
+}  
+  
+nav ul li a {  
+    display: block; /* Convert links to block-level elements */  
+    color: white; /* Link text color */  
+    text-align: center;  
+    padding: 14px 16px; 
+    text-decoration: none; 
+}  
+  
+/* Mouse-over effect */  
+nav ul li a:hover {  
+    background-color: #111; /* Background color on mouse hover */  
+}  
+  
+/* If you need responsive design, you can add a media query */  
+@media screen and (max-width: 600px) {  
+    nav ul {  
+        flex-direction: column;  
+    }  
+    nav ul li {  
+        text-align: center; 
+    }  
+}
+footer {  
+    background-color: #333;  
+    color: #fff;  
+    padding: 20px;  
+    text-align: center;  
+    font-size: 14px;  
+  }  
+  #ww{
+    width: 150px;
+    height: 150px;
+    position:absolute;
+    top:260px;
+    left:650px
+ }
+ .purple-block {  
+    width: 500px; /* You can adjust this value as needed */  
+    height: 100px; /* You can adjust this value as needed */  
+    background-color: purple; /* Defines the background color of the block element as purple */  
+    color: white; /* Define the text color to be white for clearer display on a purple background */  
+    text-align: center; /* Center text in block elements */  
+    line-height: 100px; 
+    position: absolute;
+    top: 120px;  
+    left: 500px; 
+    }
+ #aim{
+    width: 1457px; 
+    height: 250px;
+    background-color: rgb(128, 231, 121); 
+    text-align: center;
+ }
+ #search{
+   
+   position: relative; 
+   top: 700px;  
+   left: 1020px; 
+ }
+</style>
+<nav>  
+    <ul>  
+        <li><a href="homepage.html">Home</a></li>  
+        <li><a href="aboutus.html">About Us</a></li>  
+        <li><a href="product.html">Product description</a></li>  
+        <li><a href="sup.html">Support to customer</a></li>  
+        <li><a href="blog.html">Blog</a></li>
+    </ul>  
+</nav> 
+<div class="purple-block" style="font-size: 50px">About us</div> 
+<img id="ww" src="logo.png"> 
+<img src="zz.png" width="1457px" height="700px">
+<img src="xx.png" width="1457px" height="700px">
+<div id="aim">
+<img src="site.png"width="1457px" height="700px">
+<h1>Amid the global wave of digitization, IT Company will continue to uphold the core values<br> of "Innovation, Excellence, Service, and Win-Win" and strive to become a leading digital<br> transformation partner globally. We will work hand in hand with customers to create<br> a brighter future.</h1>
+</div>
+
+
+<body>
+    <div id="search">
+        <img src="sss.png" width="30px" height="30px">
+    <form  action="https://cn.bing.com/?mkt=zh-CN" method="get">  
+        <input type="text" name="q" placeholder="Enter a search keyword">  
+        <input type="submit" value="Search">  
+    </form>  
+   </div>
+</body><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<footer>  
+    <div class="copyright">  
+      <p>&copy; 2024 Electronic Information Training School. All rights reserved.</p>  
+    </div>  
+  </footer> 
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+ 
+nav {  
+    background-color: #333; 
+    overflow: hidden;  
+}  
+  
+nav ul {  
+    list-style-type: none;  
+    margin: 0;  
+    padding: 0;  
+    display: flex;  
+    justify-content: space-between; 
+}  
+  
+nav ul li {  
+    position: relative;  
+}  
+  
+nav ul li a {  
+    display: block;  
+    color: white; 
+    text-align: center;  
+    padding: 14px 16px;   
+    text-decoration: none;  
+}  
+  
+
+nav ul li a:hover {  
+    background-color: #111; 
+}  
+  
+  
+@media screen and (max-width: 600px) {  
+    nav ul {  
+        flex-direction: column;  
+    }  
+    nav ul li {  
+        text-align: center;  
+    }  
+}
+footer {  
+    background-color: #333;  
+    color: #fff;  
+    padding: 20px;  
+    text-align: center;  
+    font-size: 14px;  
+  }  
+  #ww{
+    width: 150px;
+    height: 150px;
+    position:absolute;
+    top:260px;
+    left:650px
+ }
+ #f{
+    width: 450px;
+    height: 400px;
+    text-align: center;
+  }
+  h1{
+    text-align: center;
+  }
+  #search{
+   
+   position: relative; 
+   top: 50px; 
+   left: 1020px; 
+ }
+</style>
+<nav>  
+    <ul>  
+        <li><a href="homepage.html">Home</a></li>  
+        <li><a href="aboutus.html">About Us</a></li>  
+        <li><a href="product.html">Product description</a></li>  
+        <li><a href="sup.html">Support to customer</a></li>  
+        <li><a href="blog.html">Blog</a></li>
+    </ul>  
+</nav> 
+<img id="ww" src="logo.png"> 
+<img src="d.png" width="1457px" height="600px"> 
+<h1>We can help</h1>
+
+<img id="f"src="ff.png">
+<img id="f"src="gg.png">
+<img id="f"src="hh.png">
+
+<body>
+    <div id="search">
+        <img src="sss.png" width="30px" height="30px">
+    <form  action="https://cn.bing.com/?mkt=zh-CN" method="get">  
+        <input type="text" name="q" placeholder="Enter a search keyword">  
+        <input type="submit" value="Search">  
+    </form>  
+   </div>
+</body><br><br><br><br><br>
+<footer>  
+    <div class="copyright">  
+      <p>&copy; 2024 Electronic Information Training School. All rights reserved.</p>  
+    </div>  
+  </footer> 
+</html>
